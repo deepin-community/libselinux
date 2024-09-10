@@ -1,3 +1,9 @@
+libselinux (3.5-1deepin2) unstable; urgency=medium
+
+  * support v25 usec patch
+
+ -- zhouzilong <zhouzilong@uniontech.com>  Wed, 04 Sep 2024 10:20:52 +0800
+
 libselinux (3.5-1deepin1) unstable; urgency=medium
 
   * No source change upload against python 3.12.
