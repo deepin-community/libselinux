@@ -1,3 +1,10 @@
+libselinux (3.5-1deepin3) unstable; urgency=medium
+
+  * Separartion of SELinux and USEC configuration.
+  * When both SELinux and USEC are present, SELinux is given priority.
+
+ -- zhouzilong <zhouzilong@uniontech.com>  Thu, 05 Dec 2024 20:29:08 +0800
+
 libselinux (3.5-1deepin2) unstable; urgency=medium
 
   * support v25 usec patch
