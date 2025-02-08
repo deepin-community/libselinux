@@ -1,3 +1,10 @@
+libselinux (3.5-1deepin4) unstable; urgency=medium
+
+  [ Michael Biebl ]
+  * Move libselinux into /usr (Closes: #914247)
+
+ -- Tianyu Chen <sweetyfish@deepin.org>  Sat, 08 Feb 2025 18:05:57 +0800
+
 libselinux (3.5-1deepin3) unstable; urgency=medium
 
   * Separartion of SELinux and USEC configuration.
