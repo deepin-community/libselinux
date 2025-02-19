@@ -64,7 +64,7 @@ endif
 override_dh_auto_install:
 	$(MAKE) install $(extra_make_args) DESTDIR="${CURDIR}/debian/tmp" \
 	  LIBDIR=/usr/lib/$(DEB_HOST_MULTIARCH) \
-	  SHLIBDIR=/lib/$(DEB_HOST_MULTIARCH)
+	  SHLIBDIR=/usr/lib/$(DEB_HOST_MULTIARCH)
 ifneq ($(filter python3-selinux,$(DOPACKAGES)),)
 	set -e; for version in $(PY3VERSIONS); do \
 	  $(MAKE) install-pywrap $(extra_make_args) PYTHON=python$$version DESTDIR="${CURDIR}/debian/tmp" DEB_PYTHON_INSTALL_LAYOUT=deb; \
