@@ -1,9 +1,17 @@
-libselinux (3.5-1deepin4) unstable; urgency=medium
+libselinux (3.5-1deepin5) unstable; urgency=medium
 
   [ Michael Biebl ]
   * Move libselinux into /usr (Closes: #914247)
 
  -- Tianyu Chen <sweetyfish@deepin.org>  Sat, 08 Feb 2025 18:05:57 +0800
+
+libselinux (3.5-1deepin4) unstable; urgency=medium
+
+  * feat: adapt sw64. debian/ruls dpkg-shlibdeps-params=--ignore-missing-info.
+  *       sw64 ruby3.0 has no shlibs.
+  *       适配sw64.
+
+ -- zhangya <zhangya@uniontech.com>  Wed, 19 Feb 2025 15:01:08 +0800
 
 libselinux (3.5-1deepin3) unstable; urgency=medium
 
