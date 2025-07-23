@@ -1,3 +1,9 @@
+libselinux (3.5-1deepin7) unstable; urgency=medium
+
+  * feat: 适配usec三权分立拓展属性.
+
+ -- zhangya <zhangya@uniontech.com>  Mon, 03 Jun 2025 19:29:08 +0800
+
 libselinux (3.5-1deepin5) unstable; urgency=medium
 
   [ Michael Biebl ]

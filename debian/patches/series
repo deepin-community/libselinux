@@ -1,2 +1,3 @@
 support-v25-usec.patch
 selinux-and-usec-configuration-separation.patch
+003_uos_support_usecuser.patch

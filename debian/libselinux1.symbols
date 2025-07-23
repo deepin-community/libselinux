@@ -244,3 +244,43 @@ libselinux.so.1 libselinux1 #MINVER#
  sidput@LIBSELINUX_1.0 3.1~
  string_to_av_perm@LIBSELINUX_1.0 3.1~
  string_to_security_class@LIBSELINUX_1.0 3.1~
+ is_selinux_enabled_raw@LIBSELINUX_3.5 3.5~
+ fini_usecmnt@LIBSELINUX_3.5 3.5~
+ get_file_audit_status@LIBSELINUX_3.5 3.5~
+ is_usec_enabled@LIBSELINUX_3.5 3.5~
+ is_usec_enabled_raw@LIBSELINUX_3.5 3.5~
+ set_usecmnt@LIBSELINUX_3.5 3.5~
+ uavc_add_callback@LIBSELINUX_3.5 3.5~
+ uavc_audit@LIBSELINUX_3.5 3.5~
+ uavc_av_stats@LIBSELINUX_3.5 3.5~
+ uavc_cache_stats@LIBSELINUX_3.5 3.5~
+ uavc_cleanup@LIBSELINUX_3.5 3.5~
+ uavc_compute_create@LIBSELINUX_3.5 3.5~
+ uavc_compute_member@LIBSELINUX_3.5 3.5~
+ uavc_context_to_sid@LIBSELINUX_3.5 3.5~
+ uavc_context_to_sid_raw@LIBSELINUX_3.5 3.5~
+ uavc_destroy@LIBSELINUX_3.5 3.5~
+ uavc_get_initial_sid@LIBSELINUX_3.5 3.5~
+ uavc_has_perm@LIBSELINUX_3.5 3.5~
+ uavc_has_perm_noaudit@LIBSELINUX_3.5 3.5~
+ uavc_init@LIBSELINUX_3.5 3.5~
+ uavc_netlink_acquire_fd@LIBSELINUX_3.5 3.5~
+ uavc_netlink_check_nb@LIBSELINUX_3.5 3.5~
+ uavc_netlink_close@LIBSELINUX_3.5 3.5~
+ uavc_netlink_loop@LIBSELINUX_3.5 3.5~
+ uavc_netlink_open@LIBSELINUX_3.5 3.5~
+ uavc_netlink_release_fd@LIBSELINUX_3.5 3.5~
+ uavc_open@LIBSELINUX_3.5 3.5~
+ uavc_reset@LIBSELINUX_3.5 3.5~
+ uavc_sid_stats@LIBSELINUX_3.5 3.5~
+ uavc_sid_to_context@LIBSELINUX_3.5 3.5~
+ uavc_sid_to_context_raw@LIBSELINUX_3.5 3.5~
+ usec_check_access@LIBSELINUX_3.5 3.5~
+ usec_getfilecon@LIBSELINUX_3.5 3.5~
+ usec_lgetfilecon@LIBSELINUX_3.5 3.5~
+ usec_lgetfilecon_raw@LIBSELINUX_3.5 3.5~
+ usec_lsetfilecon_raw@LIBSELINUX_3.5 3.5~
+ usec_restorecon_parallel@LIBSELINUX_3.5 3.5~
+ usec_user_getcon@LIBSELINUX_3.5 3.5~
+ usecfs_exists@LIBSELINUX_3.5 3.5~
+ write_audit_log@LIBSELINUX_3.5 3.5~
