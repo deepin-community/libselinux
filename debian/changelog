@@ -1,3 +1,9 @@
+libselinux (3.5-1deepin8) unstable; urgency=medium
+
+  * fix: python3报错undefined symbol: usec_getfilecon_raw
+
+ -- zhangya <zhangya@uniontech.com>  Thu, 20 Nov 2025 10:02:08 +0800
+
 libselinux (3.5-1deepin7) unstable; urgency=medium
 
   * feat: 适配usec三权分立拓展属性.

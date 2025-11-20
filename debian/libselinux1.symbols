@@ -277,6 +277,7 @@ libselinux.so.1 libselinux1 #MINVER#
  uavc_sid_to_context_raw@LIBSELINUX_3.5 3.5~
  usec_check_access@LIBSELINUX_3.5 3.5~
  usec_getfilecon@LIBSELINUX_3.5 3.5~
+ usec_getfilecon_raw@LIBSELINUX_3.5 3.5~
  usec_lgetfilecon@LIBSELINUX_3.5 3.5~
  usec_lgetfilecon_raw@LIBSELINUX_3.5 3.5~
  usec_lsetfilecon_raw@LIBSELINUX_3.5 3.5~

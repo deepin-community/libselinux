@@ -167,12 +167,13 @@ Index: libselinux/src/libselinux.map
 ===================================================================
 --- libselinux.orig/src/libselinux.map
 +++ libselinux/src/libselinux.map
-@@ -285,4 +285,10 @@ LIBSELINUX_3.5 {
+@@ -285,4 +285,11 @@ LIBSELINUX_3.5 {
      set_usecmnt;
      usecfs_exists;
      fini_usecmnt;
 +    usec_getfilecon;
 +    usec_lgetfilecon;
++    usec_getfilecon_raw;
 +    usec_user_getcon;
 +    usec_restorecon_parallel;
 +    usec_lsetfilecon_raw;
@@ -1068,7 +1069,7 @@ Index: libselinux/include/selinux/selinux.h
  extern int is_selinux_enabled(void);
  /* Return 1 if we are running on a SELinux MLS kernel, or 0 otherwise. */
  extern int is_selinux_mls_enabled(void);
-+int is_selinux_enabled_raw(void);
++extern int is_selinux_enabled_raw(void);
  
  /* No longer used; here for compatibility with legacy callers. */
  typedef char *security_context_t
