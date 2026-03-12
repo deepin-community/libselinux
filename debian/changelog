@@ -1,3 +1,10 @@
+libselinux (3.5-1deepin6) unstable; urgency=medium
+
+  * remove usec.
+  * fix swig_python_appendoutput compilation argument error.
+
+ -- zhouzilong <zhouzilong@uniontech.com>  Thu, 12 Mar 2026 16:29:36 +0800
+
 libselinux (3.5-1deepin5) unstable; urgency=medium
 
   [ Michael Biebl ]
