@@ -1,3 +1,9 @@
+libselinux (3.5-1deepin9) unstable; urgency=medium
+
+  * Same version number as UOS Professional Edition.
+
+ -- zhouzilong <zhouzilong@uniontech.com>  Sun, 15 Mar 2026 14:15:18 +0800
+
 libselinux (3.5-1deepin6) unstable; urgency=medium
 
   * remove usec.
